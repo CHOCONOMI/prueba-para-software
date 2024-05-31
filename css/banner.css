@@ -1,0 +1,74 @@
+.banner {
+    width: 100%;
+    height: 8em;
+}
+
+.banner nav {
+    width:100%;
+    max-width: 180em;
+    margin: auto;
+    background-color: #6f120b;
+}
+
+.dmenu {
+    display: none;
+}
+
+.logo {
+    width: 8em;
+    height: 5em;
+    margin-left: 12em;
+    background-color: aliceblue;
+}
+
+.desplegable {
+    overflow: hidden;
+    list-style: none;
+}
+
+.area {
+    float: left;
+    text-align: center;
+    margin: 1em 6em 2em 8em;
+    height: 5em;
+}
+
+.area a {
+    color: #ee6055;
+    padding: 1.5em;
+    display: block;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2em;
+}
+
+.archivos {
+    display: none;
+    background-color: #6f120b;
+}
+
+.archivos li {
+    list-style: none;
+    margin: 0em 0em 2em 0em;
+}
+
+.archivos a{
+    font-family: 'Gugi', cursive;
+    list-style: none;
+    margin: 0em; 
+}
+
+.area:hover .archivos{
+    display: block;
+    position: absolute;
+    width: 14em;
+    margin: auto;
+}
+
+.area a:hover {
+    color: white;
+    transition: 0.05s;
+}
+
+
+
